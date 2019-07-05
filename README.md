@@ -7,9 +7,9 @@ In Week 3 we develop a Face Type identifying software. This is our first In clas
 
 Predicting the Face type of a person according to the 6 standard Face Types
 
-<img src="Images/Picture7.png" width="400">
-<img src="Images/Picture8.png" width="600">
-<img src="Images/Picture10.png" width="400">
+<img src="images/Picture7.png" width="400">
+<img src="images/Picture8.png" width="600">
+<img src="images/Picture10.png" width="400">
 
 
 ### Defining the Labels
@@ -26,7 +26,7 @@ for this problem we are going to define features with the 68 Landmarks of face d
 
 [read more about the algorithm](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/)
 
-<img src="Images/Picture9.png" width="400">
+<img src="images/Picture9.png" width="400">
 
 Using the 68 Landmarks (points) the features will be defined,
 
@@ -35,8 +35,8 @@ Every point of the 68 points will contain (x,y) coordinates of the point.
 - Let's denote the 68 points as (p1,p2,p3.....,p68)
 - Then each and every points has (x,y) coordinates, for example p1[0] will be the x coordinate of the point 1,p1[1] will be the y cooedinate of point 1.
 
-<img src="Images/Picture10.png" width="400
-<img src="Images/Picture9.png" width="400
+<img src="images/Picture10.png" width="400
+<img src="images/Picture9.png" width="400
 
 - As you can see in the Image the, Shape of a human face is almost defined by the p3,p4,p5,p6,p7,p8 and p9 (Assuming the face is almost symmetric)
 - Then we can define the features as distances(along x axis) between the p3,p4,p5,p6,p7,p8 and p9 point.
